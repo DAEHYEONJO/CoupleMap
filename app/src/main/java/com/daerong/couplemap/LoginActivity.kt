@@ -15,6 +15,7 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+        //안녕
         delete_id.setOnClickListener { input_id.setText("") }
         delete_pw.setOnClickListener { input_pw.setText("") }
         input_id.setOnFocusChangeListener { v, hasFocus ->
