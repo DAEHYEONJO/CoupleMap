@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "22146659347",
+    "firebase_url": "https://daerong-map.firebaseio.com",
+    "project_id": "daerong-map",
+    "storage_bucket": "daerong-map.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22146659347:android:18c12e4b29750a5f9e3be6",
+        "android_client_info": {
+          "package_name": "com.daerong.couplemap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22146659347-0tjthmv42h5etfc1tj6iasnk9k5a3948.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyQvyUEvNmmmISnj07fZjDbHoUeMj-DkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22146659347-0tjthmv42h5etfc1tj6iasnk9k5a3948.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
