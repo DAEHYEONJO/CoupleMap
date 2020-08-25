@@ -5,6 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="조대현 똥쟁이 하루에 4번 똥 쌈"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
