@@ -11,6 +11,7 @@ class ConnectActivity : AppCompatActivity() {
     lateinit var user_sid:String
     val db = Firebase.firestore
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_connect)
