@@ -8,32 +8,63 @@
     tools:context=".SignUpActivity"
     android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/sign_up_input_id"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="id"/>
-    <TextView
-        android:id="@+id/sign_up_id_error"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/sign_up_input_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/basic_edit_text"
+            android:hint="ID"
+            android:inputType="textFilter"
+            android:maxLines="1"
+            android:scrollHorizontally="true" />
+
+        <TextView
+            android:id="@+id/sign_up_id_error"
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="default"
+            android:visibility="invisible"/>
+        <EditText
+            android:id="@+id/sign_up_input_pw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PW"
+            android:background="@drawable/basic_edit_text"
+            android:maxLines="1"
+            android:maxWidth="100dp"
+            android:cursorVisible="true"
+            android:inputType="textPassword"/>
+        <TextView
+            android:id="@+id/sign_up_pw_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="공백 포함x, 숫자, 영문자 포함, 4자리 이상"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+    <View
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="default"
-        android:visibility="gone"/>
-    <EditText
-        android:id="@+id/sign_up_input_pw"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="pw"/>
-    <TextView
-        android:id="@+id/sign_up_pw_error"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="default"
-        android:visibility="gone"/>
+        android:layout_height="1dp"
+        android:background="@color/basic_edit_text_border"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
     <Button
         android:id="@+id/sign_up_success_check"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/basic_edit_text"
+        android:layout_gravity="center"
         android:text="확인"/>
 
 </LinearLayout>
